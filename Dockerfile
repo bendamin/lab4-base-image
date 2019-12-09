@@ -9,7 +9,7 @@ ADD /myapp /myapp
 
 RUN pip3 install -r myapp/requirements.txt
 
-EXPOSE 5000
+EXPOSE 80
 
 WORKDIR /myapp
 
